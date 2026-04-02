@@ -21,7 +21,7 @@ By separating the **Voice Conversion** from **Audio Separation**, we ensure:
 - `/Applio/logs`: Where your voice models are stored.
 
 ## 🚀 The 2-Step Workflow
-1. Use the [K-UVR Audio Separator](https://colab.research.google.com/github/Xattyla/K-UVR-Colab/blob/main/K-UVR.ipynb) to get a clean vocal.
+1. Use the [K-UVR Audio Separator](https://colab.research.google.com/github/Zattyla/K-UVR-Colab/blob/main/K-UVR.ipynb) to get a clean vocal.
 2. Use this **RVC Voice Converter** to transform the voice.
 3. Mix them in any audio editor (Audacity, FL Studio, etc.).
 
