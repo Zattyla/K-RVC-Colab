@@ -1,7 +1,7 @@
-# 🎤 RVC Voice Converter
+# 🎤 K-RVC Voice Converter
 The second stage of the AI Cover Pipeline. This notebook is dedicated to high-fidelity voice conversion using the **Applio (RVC v2)** engine.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Zattyla/K-RVC-Colab/blob/main/RVC_Voice_Converter.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Zattyla/K-RVC-Colab/blob/main/K-RVC.ipynb)
 
 ## 💡 Why a Separate Notebook?
 By separating the **Voice Conversion** from **Audio Separation**, we ensure:
@@ -21,7 +21,7 @@ By separating the **Voice Conversion** from **Audio Separation**, we ensure:
 - `/Applio/logs`: Where your voice models are stored.
 
 ## 🚀 The 2-Step Workflow
-1. Use the [UVR Elite Separator](LINK_PARA_SUA_COLAB_A) to get a clean vocal.
+1. Use the [K-UVR Audio Separator](https://colab.research.google.com/github/Xattyla/K-UVR-Colab/blob/main/K-UVR.ipynb) to get a clean vocal.
 2. Use this **RVC Voice Converter** to transform the voice.
 3. Mix them in any audio editor (Audacity, FL Studio, etc.).
 
